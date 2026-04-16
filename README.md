@@ -1,26 +1,36 @@
-# owasp-asvs-portuguese
+# OWASP API Security Risks
 
-## Introdução
+This project demonstrates the OWASP Top 10 API security risks, with vulnerable and secure implementations in each folder. The `app.js` file aggregates secure principles for REST APIs, while [GUIDE.md](GUIDE.md) provides a manual testing guide for the endpoints.
 
-O principal objetivo do projeto OWASP Application Security Verification Standard (ASVS) é fornecer um padrão de segurança de aplicativo aberto para aplicativos da web e serviços da web de todos os tipos.
+## OWASP Top 10 API Security Risks
 
-O padrão fornece uma base para projetar, construir e testar controles de segurança de aplicativos técnicos, incluindo questões arquitetônicas, ciclo de vida de desenvolvimento seguro, modelagem de ameaças, segurança ágil incluindo integração / implantação contínua, sem servidor e problemas de configuração.
+| #        | Risk                                            | Folder                                                                                                    |
+| -------- | ----------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| [API-1]  | Broken Object Level Authorization               | [01-broken-object-level-auth](01-broken-object-level-auth/)                                               |
+| [API-2]  | Broken Authentication                           | [02-broken-auth](02-broken-auth/)                                                                         |
+| [API-3]  | Broken Object Property Level Authorization      | [03-broken-object-property-level-auth](03-broken-object-property-level-auth/)                             |
+| [API-4]  | Unrestricted Resource Consumption               | [04-unrestricted-resource-consumption](04-unrestricted-resource-consumption/)                             |
+| [API-5]  | Broken Function Level Authorization             | [05-broken-function-level-auth](05-broken-function-level-auth/)                                           |
+| [API-6]  | Unrestricted Access to Sensitive Business Flows | [06-unrestricted-access-to-sensitive-business-flows](06-unrestricted-access-to-sensitive-business-flows/) |
+| [API-7]  | Server Side Request Forgery                     | [07-server-side-request-forgery](07-server-side-request-forgery/)                                         |
+| [API-8]  | Security Misconfiguration                       | [08-security-misconfiguration](08-security-misconfiguration/)                                             |
+| [API-9]  | Improper Inventory Management                   | [09-improper-inventory-management](09-improper-inventory-management/)                                     |
+| [API-10] | Unsafe Consumption of APIs                      | [10-unsafe-consumption-of-apis](10-unsafe-consumption-of-apis/)                                           |
 
-## Objetivos do Padrão
+Each folder contains:
 
-Os requisitos foram desenvolvidos com os seguintes objetivos em mente:
+- `unsecured.js` — vulnerable implementation demonstrating the risk
+- `secured.js` — secure implementation with mitigations applied
+- `readme.md` — explanation of the vulnerability, fix and how to test it
 
-Ajude as organizações a adotar ou adaptar um padrão de codificação seguro de alta qualidade
-Ajude arquitetos e desenvolvedores a construir software seguro, projetando e construindo segurança e verificando se eles estão em vigor e eficazes pelo uso de testes de unidade e integração que implementam testes ASVS
-Ajude a implantar software seguro por meio do uso de compilações seguras e repetíveis
-Ajude os revisores de segurança a usar um padrão abrangente, consistente e de alta qualidade para revisões de código híbrido, revisões de código seguras, revisões de código de pares, retrospectivas e trabalhar com desenvolvedores para construir unidades de segurança e testes de integração. É ainda possível usar este padrão para testes de penetração no Nível 1
-Auxiliar os fornecedores de ferramentas, garantindo que haja uma versão legível por máquina facilmente gerável, com mapeamentos CWE
-Auxiliar as organizações a comparar ferramentas de segurança de aplicativos pela porcentagem de cobertura do ASVS para ferramentas de análise dinâmica, interativa e estática
-Minimize a sobreposição e concorrência de requisitos de outros padrões, alinhando-se fortemente com eles (NIST 800-63) ou sendo superconjuntos estritos (OWASP Top 10 2017, PCI DSS 3.2.1), o que ajudará a reduzir os custos, esforço e tempo de conformidade desperdiçado em aceitar diferenças desnecessárias como riscos.
-As listas de requisitos ASVS são disponibilizadas em CSV, JSON e outros formatos que podem ser úteis para referência ou uso programático.
+## Links
 
+- [Official OWASP Top 10 API Security Risk Page](https://owasp.org/API-Security/editions/2023/en/0x11-t10/)
 
-## Repositório principal
+## License
 
-- https://github.com/OWASP/ASVS/
-- https://owasp.org/www-project-application-security-verification-standard/
+Apache-2.0 license. [LICENSE](./LICENSE)
+
+## Author
+
+Gabriel Ramos de Paula ([@whosramoss](https://github.com/whosramoss))
