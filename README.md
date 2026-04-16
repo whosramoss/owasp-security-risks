@@ -1,9 +1,23 @@
-# OWASP API Security Risks
+<h1>
+  <p align="center">
+    <img src="./web/src/assets/icon.svg" alt="RASVS logo" width="128">
+     <br>OWASP Security Risks
+  </p>
+</h1>
 
-This project demonstrates the OWASP Top 10 API security risks, with vulnerable and secure implementations in each folder. The `app.js` file aggregates secure principles for REST APIs, while [GUIDE.md](GUIDE.md) provides a manual testing guide for the endpoints.
+<p align="center">
+  This project demonstrates the OWASP Top 10 API security risks, with vulnerable and secure implementations in each folder.
+  <br /> <br />
+   <a href="#security-risks">Security Risks</a>
+    ·
+    <a href="#links">Links</a>
+</p>
+ 
+## Security Risks
 
-## OWASP Top 10 API Security Risks
+ The `app.js` file aggregates secure principles for REST APIs, while [GUIDE.md](./GUIDE.md) provides a manual testing guide for the endpoints.
 
+ 
 | #        | Risk                                            | Folder                                                                                                    |
 | -------- | ----------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
 | [API-1]  | Broken Object Level Authorization               | [01-broken-object-level-auth](01-broken-object-level-auth/)                                               |
