@@ -6,7 +6,7 @@
 </h1>
 
 <p align="center">
-  This project demonstrates the OWASP Top 10 API security risks, with vulnerable and secure implementations in each folder.
+  This project demonstrates the OWASP Top 10 API security risks, with vulnerable and secure implementations.
   <br /> <br />
    <a href="#security-risks">Security Risks</a>
     ·
