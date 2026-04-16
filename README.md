@@ -1,6 +1,6 @@
 <h1>
   <p align="center">
-    <img src="./web/src/assets/icon.svg" alt="RASVS logo" width="128">
+    <img src="./utils/icon.svg" alt="logo" width="128">
      <br>OWASP Security Risks
   </p>
 </h1>
