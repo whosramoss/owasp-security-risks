@@ -1,5 +1,6 @@
 <h1>
   <p align="center">
+     <img src="./utils/icon.svg" alt="logo" width="128">
      <br>OWASP Security Risks
   </p>
 </h1>
